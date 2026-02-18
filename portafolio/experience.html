@@ -7,11 +7,12 @@
     <meta name="description" content="Experiencia y Formacion - Portafolio Freddy Castro">
     <title>Experiencia - Freddy Castro</title>
     <link rel="icon" type="image/png" href="images/imagenPrueba.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Freddy Ali Castro Roman</h1>
+        <h1 id="site-title">Freddy Ali Castro Roman</h1>
         <p>Ingeniero en Software</p>
     </header>
 
@@ -20,22 +21,23 @@
         <a href="./about.html">Sobre Mi</a> |
         <a href="./skills.html">Habilidades</a> |
         <a href="./projects.html">Proyectos</a> |
-        <a href="./experience.html">Experiencia</a> |
+        <a class="nav-active" href="./experience.html">Experiencia</a> |
         <a href="./contact.html">Contacto</a>
     </nav>
 
     <main>
         <section>
-            <h2>Estudios</h2>
-            <article>
+            <h2 class="section-title">Estudios</h2>
+            <article class="card">
                 <h3>Ingenieria en Software</h3>
                 <p><strong>Institucion:</strong> Instituto Tecnologico de Sonora (ITSON)</p>
                 <p><strong>Descripcion:</strong> Formacion profesional en desarrollo de software, bases de datos, ingenieria de requisitos, estructuras de datos y desarrollo web.</p>
             </article>
+        </section>
 
         <section>
-            <h2>Cursos y certificaciones</h2>
-            <ul>
+            <h2 class="section-title">Cursos y certificaciones</h2>
+            <ul class="info-list">
                 <li>Fundamentos de programacion - ITSON</li>
                 <li>Estructura de datos - ITSON</li>
                 <li>Desarrollo web con HTML, CSS y JavaScript</li>
@@ -44,20 +46,20 @@
         </section>
 
         <section>
-            <h2>Proyectos academicos destacados</h2>
-            <article>
+            <h2 class="section-title">Proyectos academicos destacados</h2>
+            <article class="card">
                 <h3>Portafolio Web</h3>
                 <p>Desarrollo de un portafolio profesional utilizando HTML semantico para la materia de Aplicaciones Web.</p>
                 <p><strong>Ano:</strong> 2026</p>
             </article>
 
-            <article>
+            <article class="card">
                 <h3>Sistema de Registro</h3>
                 <p>Desarrollo de una aplicacion web para registro de usuarios con formularios y validacion de datos.</p>
                 <p><strong>Ano:</strong> 2025</p>
             </article>
 
-            <article>
+            <article class="card">
                 <h3>Gestion de Inventario</h3>
                 <p>Proyecto de base de datos para administrar el inventario de una tienda con operaciones CRUD.</p>
                 <p><strong>Ano:</strong> 2025</p>

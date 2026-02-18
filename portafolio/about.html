@@ -7,17 +7,18 @@
     <meta name="description" content="Sobre mi - Portafolio Freddy Castro">
     <title>Sobre Mi - Freddy Castro</title>
     <link rel="icon" type="image/png" href="images/imagenPrueba.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Freddy Ali Castro Roman</h1>
+        <h1 id="site-title">Freddy Ali Castro Roman</h1>
         <p>Ingeniero en Software</p>
     </header>
 
     <nav>
         <a href="./index.html">Inicio</a> |
-        <a href="./about.html">Sobre Mi</a> |
+        <a class="nav-active" href="./about.html">Sobre Mi</a> |
         <a href="./skills.html">Habilidades</a> |
         <a href="./projects.html">Proyectos</a> |
         <a href="./experience.html">Experiencia</a> |
@@ -26,15 +27,15 @@
 
     <main>
         <section>
-            <h2>Sobre mi</h2>
-            <p>Hola, mi nombre es <strong>Freddy Castro</strong>. Soy estudiante de Ingenieria en Software en el Instituto Tecnologico de Sonora (ITSON).</p>
+            <h2 class="section-title">Sobre mi</h2>
+            <p>Hola, mi nombre es <span class="highlight">Freddy Castro</span>. Soy estudiante de Ingenieria en Software en el Instituto Tecnologico de Sonora (ITSON).</p>
             <p>Me apasiona la tecnologia y el desarrollo de software. Desde que comence la carrera, he descubierto mi interes por crear aplicaciones web funcionales y bien estructuradas.</p>
             <img src="./images/imagenPrueba.png" alt="Foto de Freddy Castro" width="150">
         </section>
 
         <section>
-            <h2>Intereses profesionales</h2>
-            <ul>
+            <h2 class="section-title">Intereses profesionales</h2>
+            <ul class="info-list">
                 <li>Desarrollo web frontend y backend</li>
                 <li>Inteligencia artificial</li>
                 <li>Bases de datos</li>
@@ -44,13 +45,13 @@
         </section>
 
         <section>
-            <h2>Mi objetivo como desarrollador</h2>
+            <h2 class="section-title">Mi objetivo como desarrollador</h2>
             <p>Mi objetivo es convertirme en un desarrollador de software completo, capaz de disenar y construir aplicaciones web modernas. Busco seguir aprendiendo nuevas tecnologias y contribuir a proyectos que tengan un impacto positivo en la sociedad.</p>
         </section>
 
         <section>
-            <h2>Datos personales</h2>
-            <ul>
+            <h2 class="section-title">Datos personales</h2>
+            <ul class="info-list">
                 <li><strong>Nombre:</strong> Freddy Ali Castro Roman</li>
                 <li><strong>Universidad:</strong> Instituto Tecnologico de Sonora (ITSON)</li>
                 <li><strong>Carrera:</strong> Ingenieria en Software</li>
